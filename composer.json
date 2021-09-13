@@ -1,0 +1,21 @@
+{
+    "name": "jsj/impresora",
+    "description": "app para poder realizar la impresion en los cllientes,mas que todo el logo de la impresora",
+    "type": "library",
+    "require": {
+        "mike42/escpos-php": "^3.0"
+    },
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Jsj\\Impresora\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergio Zegarra",
+            "email": "s.zegarra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev" 
+}
